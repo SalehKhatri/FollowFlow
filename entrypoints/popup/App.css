@@ -1,0 +1,57 @@
+/* Popup container styling for a dark theme */
+.popup-container {
+  font-family: 'Arial', sans-serif;
+  padding: 16px;
+  text-align: center;
+  width: 320px;
+  background-color: #1c1e21; /* Dark background */
+  color: #e6e6e6; /* Light text for readability */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Header styling */
+.popup-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #1d9bf0; /* Vibrant blue, matching X.com's primary accent */
+}
+
+/* Subheading styling */
+.popup-container h2 {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+  color: #e6e6e6;
+}
+
+/* Features list */
+.popup-container ul {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+.popup-container ul li {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #c0c0c0; /* Slightly lighter for list items */
+}
+
+/* Tip text */
+.popup-container .tip {
+  margin-top: 10px;
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #a3a3a3; /* Subtle text for additional notes */
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #808080; /* Dull grey for footer text */
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
